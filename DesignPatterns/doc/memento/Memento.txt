@@ -1,0 +1,10 @@
+When to use this pattern.
+- A picture of all or part of the state must be saved for later use.
+- When we need to restore information and we don't want o brake encapsulation. 
+
+Mememnto: Memorizes the internal state of the object. Protects from incursions from other objects different than the originator. 
+
+Caretaker: Is responsible for storing and handling Mementos. It cannot read Mementos.
+ 
+Originator: Creates a Mememnto Object that contains a picture of its current internal state. 
+            Uses memento to restore its original state.  
