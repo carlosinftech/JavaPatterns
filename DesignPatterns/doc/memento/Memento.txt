@@ -8,3 +8,4 @@ Caretaker: Is responsible for storing and handling Mementos. It cannot read Meme
  
 Originator: Creates a Mememnto Object that contains a picture of its current internal state. 
             Uses memento to restore its original state.  
+ 
