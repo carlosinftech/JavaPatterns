@@ -3,7 +3,7 @@ package memento;
 
 
 /**
- * @author carlosinftech
+ * @author Carlos Perez carlosinftech
  * @version 1.0
  * 
  */

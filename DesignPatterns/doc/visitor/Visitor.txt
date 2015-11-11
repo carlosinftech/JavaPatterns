@@ -1,0 +1,15 @@
+This example shows the ussage of the visitor pattern. 
+This pattern should be used if the class hierarchie is preserved but methods tend
+to be created all the time. 
+
+In this example we are modelling a simple environmental auditor. 
+
+The elements used for this example are the ecosystem as a whole and also
+Trees, Animals, Insects and a River. This element hold the data but not the operations
+for this example they all contain fixed values.
+
+The Visitors are the EnvironmentalCalculator and the DegradationCalculator. 
+The environmental calculator retrieves and shows the data of all the services provided
+by the ecosystem this year.
+The degradation calculator retrieves and shows the data of all the costs that society
+must assume due to environmental degradation. 
